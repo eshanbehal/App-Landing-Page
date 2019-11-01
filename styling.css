@@ -1,0 +1,7 @@
+/*Add a cover background for the featured part with a fixed height.*/
+.jumbotron{
+    background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/166.jpg) center center;
+    height: 600px;
+    background-size: cover;
+    
+}
