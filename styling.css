@@ -1,7 +1,7 @@
 /*Add a cover background for the featured part with a fixed height.*/
 .jumbotron{
     background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/166.jpg) center center;
-    height: 750px;
+    height: 720px;
     background-size: cover;
 }
 /*set the size of the logo*/
@@ -43,6 +43,27 @@
     }
     .featured p{
         font-size: 17px;
+    }
+    .featured{
+        text-align: center;
+    }
+}
+/*styling devices under 480px*/
+
+@media (min-width: 480px) and (max-width: 768px){
+    .jumbotron{
+        height: 410px;
+        margin: 0px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .featured h1{
+        padding-top: 20px;
+    }
+    .featured p, .featured a{
+        font-size: 14px;
     }
     .featured{
         text-align: center;
