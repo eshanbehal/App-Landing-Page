@@ -27,6 +27,18 @@
 .featured .btn-default:hover{
    background-color: rgb(145,82,58); 
 }
+
+/*styling for the trial part*/
+.trial{
+    text-align: center;
+    color: black;
+    padding: 20px 0 40px 0;
+}
+.trial img{
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+}
 /*styling devices between 480px and 768px*/
 
 @media (min-width: 480px) and (max-width: 768px){
